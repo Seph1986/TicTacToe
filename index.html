@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class ="contenedor">
+      <h1>Juguemos Ta Te Ti</h1>
+      <input class="insertName" id="playerX" placeholder="(X)INSERTAR NOMBRE">
+      <input class="insertName" id="playerO" placeholder="(O)INSERTAR NOMBRE">
+      <div class="scores" id="scoreX">Puntaje X:0</div>
+      <div class="scores" id="scoreO">Puntaje O:0</div>
+        <div id="board">
+          <div class="cells"></div>
+          <div class="cells"></div>
+          <div class="cells"></div>
+          <div class="cells"></div>
+          <div class="cells"></div>
+          <div class="cells"></div>
+          <div class="cells"></div>
+          <div class="cells"></div>
+          <div class="cells"></div>
+        </div>
+        <button id="thisPress" class="pressThis" type="button" onclick="gameReset()">LIMPIAR TABLERO</button>
+        <button  type="button" class="pressThis" onclick="window.location.reload()">REINICIAR JUEGO</button>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
